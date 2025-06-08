@@ -112,7 +112,6 @@ class TopMenu extends React.Component {
                         </div>
                         <RightLinks>
                             <FileUploadButton onFile={this.handleFile}>Load Saved Replay</FileUploadButton>
-                            <Link to="/about">About</Link>
                         </RightLinks>
                     </TopMenuContainer>
                 )}
